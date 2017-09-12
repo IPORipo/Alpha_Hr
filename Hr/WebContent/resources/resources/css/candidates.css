@@ -1,0 +1,222 @@
+.searchCandidates{
+    background-color: rgba(183, 172, 172, 0.34);
+    height: 60px;
+
+}
+
+h2{
+    float: left;
+    margin-left: 4%;
+    margin-top: 15px;
+    color:  #be1111;
+    font-style: italic;
+}
+/*===Search=====*/
+.searchSection{
+    margin-left: 20%;
+}
+.form-wrapper {
+    border: none;
+    /*    background-color: #f6f6f6;*/
+    /*    border-color: #dedede #bababa #aaa #bababa;*/
+    /*    box-shadow: 0 2px 2px rgba(255,255,255,.1), 0 1px 0 #bbb, 0 4px 0 #aaa, 0 2px 2px #444;*/
+    margin-top: 10px;
+    margin-right: 3%;
+    overflow: hidden;
+    width: 420px;
+    float: right;
+    height: 40px;
+    /*    margin-left: 10%;*/
+}
+
+.form-wrapper #search {
+    border: 1px solid #CCC;
+    -webkit-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+    -moz-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #999;
+    float: left;
+    font: 16px Lucida Sans, Trebuchet MS, Tahoma, sans-serif;
+    height: 25px;
+    width: 250px;
+
+
+}
+
+.form-wrapper #search:focus {
+    border-color: #aaa;
+    -webkit-box-shadow: 0 1px 1px #bbb inset;
+    -moz-box-shadow: 0 1px 1px #bbb inset;
+    box-shadow: 0 1px 1px #bbb inset;
+    outline: 0;
+}
+
+.form-wrapper #search:-moz-placeholder,
+.form-wrapper #search:-ms-input-placeholder,
+.form-wrapper #search::-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.form-wrapper #submit {
+    background-color: #9d2b2b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#31b2c3), to(#0483a0));
+    background-image: -webkit-linear-gradient(top, #7c1212, #d63542);
+    background-image: -moz-linear-gradient(top, #7c1212, #d63542);
+    background-image: -ms-linear-gradient(top, #7c1212, #d63542);
+    background-image: -o-linear-gradient(top, #7c1212, #d63542);
+    background-image: linear-gradient(top, #ff0a0a, #ff0000);
+    border: 1px solid #570808;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 rgba(132, 125, 125, 0.3) inset, 0 1px 0 #FFF;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+    color: #fcf8f8;
+    cursor: pointer;
+    height: 25px;
+    float: right;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 100px;
+    margin-top: 8px;
+    float: left;
+    margin-left: 10px;
+}
+
+.form-wrapper #submit:hover,
+.form-wrapper #submit:focus {
+    background-color: #4a1111;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#4a1111), to(#950b0b));
+    background-image: -webkit-linear-gradient(top, #4a1111, #950b0b);
+    background-image: -moz-linear-gradient(top, #4a1111, #950b0b);
+    background-image: -ms-linear-gradient(top, #4a1111, #950b0b);
+    background-image: -o-linear-gradient(top, #4a1111, #950b0b);
+    background-image: linear-gradient(top, #4a1111, #950b0b);
+}
+
+.form-wrapper #submit:active {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    outline: 0;
+}
+
+.form-wrapper #submit::-moz-focus-inner {
+    border: 0;
+}
+
+/*===End Search=====*/
+
+
+
+
+
+/*=== Select =====*/
+
+select{
+    width: 200px;
+    height: 30px;
+    text-align-last:center;
+    cursor:pointer;
+    display:inline-block;
+    border:1px solid #ccc;
+    background-color: #f6f6f6;
+    margin-top: 15px;
+    border-color: #dedede #bababa #aaa #bababa;
+    box-shadow: 0 0 0 rgba(255,255,255,.1), 0 0 0 #bbb, 0 1px 0 #aaa, 0.1px 0.5px #444;
+    font: 16px Lucida Sans, Trebuchet MS, Tahoma, sans-serif;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: rgba(37, 38, 38, 0.74);
+
+}
+
+/*===End Select=====*/
+
+
+
+
+.candidatesSection{
+    margin-top: 2%;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left:-5%;
+
+
+}
+
+
+.firstCandidate{
+    background-color: rgba(187, 187, 187, 0.27);
+}
+
+.privateDescription{
+    height: 80px;
+    border-bottom: 2px solid rgba(100, 94, 94, 0.21);
+    
+
+}
+
+.privateDescription:hover{
+    background-color: rgba(187, 187, 187, 0.42);
+    cursor:pointer;
+}
+.candidatesImg{
+    width: 70px;
+    height:70px;
+    float: left;
+    margin-left:15%;
+    margin-top: 5px;
+    border: 1px solid rgba(124, 113, 113, 0.63);
+    border-radius: 5px;
+
+}
+
+.fullName{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+.fullName b{
+    font-style: italic;
+    letter-spacing: 2px;
+    /*    font-weight: 500;*/
+
+
+}
+
+.fullName b, span{
+    float: left;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+
+.chouseCandidats{
+    height: 40px;
+    width: auto;
+    padding-top: 6px;
+    margin-top: 20px;
+    /*    background-color: #9d2b2b*/
+}
+
+
+.informationOfCandidates{
+    margin-top: 6.2%;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+

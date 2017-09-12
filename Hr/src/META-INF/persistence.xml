@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="Hrr">
+	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+	<jta-data-source>jdbc/alphaHr</jta-data-source>
+	<class>model.Address</class>
+	<class>model.Certification</class>
+	<class>model.Country</class>
+	<class>model.Cv</class>
+	<class>model.CvOfEmployee</class>
+	<class>model.Education</class>
+	<class>model.Employee</class>
+	<class>model.Experience</class>
+	<class>model.Photo</class>
+	<class>model.RipTable</class>
+	<class>model.Skill</class>
+	<class>model.SkillCategory</class>
+	<class>model.Candidate</class>
+	<class>model.CandidateConfirm</class>
+	</persistence-unit>
+</persistence>

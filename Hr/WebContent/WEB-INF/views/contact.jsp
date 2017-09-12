@@ -1,0 +1,143 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gamma: Photo sharing APP</title>
+<!--  vendors scc-->
+<link rel="stylesheet" type="text/css" href="resources/vendors/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="resources/vendors/css/grid.css">
+<link rel="stylesheet" type="text/css"
+	href="resources/vendors/css/ionicons.min.css">
+<link rel="stylesheet" type="text/css" href="resources/vendors/css/animate.css">
+
+
+<!-- bootstrap vendors css-->
+<link href="resources/bootstrapVendors/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet"
+	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet">
+
+
+<!-- Bootstrap core CSS -->
+
+<link href="resources/resources/css/style.css" rel="stylesheet">
+<link href="resources/resources/css/query-style.css">
+<link href="resources/resources/css/register.css" rel="stylesheet">
+<link href="resources/resources/css/Contact.css" rel="stylesheet">
+
+<link
+	href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400"
+	rel="stylesheet">
+<title>Alpha Hr</title>
+</head>
+
+<body>
+
+
+	<%@include file="navbar.jsp"%>
+
+	<div class="middle">
+		<!--middle-->
+
+		<div class="row titleAbout">
+			<div class="col-md-4">
+				<div class="leftLine"></div>
+			</div>
+			<div class="col-md-4 titleLeft">
+				<h1>Contact Us</h1>
+			</div>
+			<div class="col-md-4">
+				<div class="rightLine"></div>
+			</div>
+		</div>
+
+
+		<div class="row contactRow">
+			<div>
+				<form action="">
+					<div class="container">
+						<div class="col-md-12">
+							<div class="col-md-6">
+								<label>Your Name <span> * </span></label> <input type="text"
+									placeholder="Enter your Name" name="contactName" required>
+
+
+								<label>Phone Number <span> * </span>
+								</label> <input type="text" placeholder="Enter Phone Number"
+									name="contactPhoneNumber" required> <label>Email
+									<span>* </span>
+								</label> <input type="text" placeholder="Enter Email"
+									name="contactEmail" required>
+							</div>
+
+							<div class="col-md-6">
+
+
+								<label>Your Text <span> * </span>
+								</label>
+								<textarea type="text" placeholder="Enter Phone Number"
+									name="contactText" required></textarea>
+
+							</div>
+
+
+
+							<div class="col-md-12">
+								<button type="submit"
+									onclick="document.getElementById('companyPopup').style.display='block'"
+									class="PopupLogin">submit</button>
+							</div>
+
+						</div>
+
+					</div>
+
+				</form>
+
+			</div>
+
+		</div>
+
+
+	</div>
+	<!--End middle-->
+
+	<div class="row footer">
+
+		<div class="col-md-4 ">
+			<ul class="footer-nav left-footer">
+				<li><a href="#">Phone Number: +995 576345</a></li>
+				<li><a href="#">Email:nino.makharadze.95@gmail.com</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-4 footer-center">
+			<p>Created By &copy; AlphaItUsa.com</p>
+		</div>
+
+
+		<div class="col-md-4 right-footer">
+			<ul class="social-links ">
+				<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+				<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

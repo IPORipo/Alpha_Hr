@@ -1,0 +1,85 @@
+.titleAbout{
+    margin-top: 2%;
+}
+
+.titleAbout h1{
+    color: #ba3030;
+    margin: 0 auto;
+    width: 300px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    /*    text-shadow: 2px 1px  2px #6c2c2c;*/
+
+}
+
+.leftLine,
+.rightLine{
+
+    width: 20%;
+    margin-top: 4%;
+    height: 4px;
+    background-color:#ba3030;
+    box-shadow: 2px 1px 2px #6c2c2c;
+}
+
+.leftLine{
+    margin-left: 110%;
+}
+
+
+.rightLine{
+    margin-left: -30%;
+}
+
+
+
+.leaderPhoto img{
+    width:50%;
+    margin-top: 5%;
+
+}
+
+.aboutLeader{
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+.aboutLeader h2{
+    display: inline-block;
+    margin-top: 5px;
+    color: #c73434;
+    font-style: italic;
+    
+}
+
+.aboutLeader h2:after{
+    content: "";
+    width: 80px;
+    background-color: #b94242;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.aboutLeader p{
+    width: 90%;
+    position: absolute;
+    margin: 0 auto;
+    text-align: justify;
+    
+
+}
+
+.aboutLeader p span{
+    
+    color: #c73434;
+    font-size: 130%;
+    font-style: oblique;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+
+

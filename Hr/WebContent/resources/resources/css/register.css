@@ -1,0 +1,272 @@
+/*middle*/
+.middle{
+    position: absolute;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    height: auto;
+}
+
+.login-logo{
+    margin-top: 20px;
+    border: 1px solid #ba3030;
+    border-radius: 100px;
+    display: inline-block;
+    color: #ba3030;
+    font-size:35px;
+    padding: 20px 30px;
+    
+}
+
+.login-title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.login-title:after{
+    content: "";
+    width: 90px;
+    background-color: #4ba7a7;
+    height: 2px;
+    display: block;
+    margin: 25px auto;
+
+}
+
+/*middle*/
+
+
+input[type=text], input[type=password], textarea {
+    width: 100%;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+
+textarea{
+    width: 100%;
+    height: 220px;
+    overflow: auto;
+    resize: none;
+    margin-top: 5px;
+}
+
+
+
+.upload-button{
+    width: 150px;
+    border-radius: 20px;
+    background-color: #4ba7a7;
+    border: 1px solid #4ba7a7;
+    padding-bottom: 3px;
+    color: #fff;
+    margin-top: 3%;
+    
+}
+
+
+/* modalLogin */
+
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px 22px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #2e5f5f;
+    color: white;
+    padding: 10px 30px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 100px;
+    margin-top: 5%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    position: relative;
+}
+
+.avatar {
+    font-size: 50px;
+}
+
+.container {
+    width: 100%;
+}
+
+.psw {
+  text-align: center;
+position: relative;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 40px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+.modalContainer{
+    height: 40px;
+}
+.modalContainer span{
+    
+    
+}
+.remember{
+
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+.regForg a{
+    text-decoration: none;
+    color: red;
+}
+
+.regForg{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/*end modal*/
+
+
+.upload-button:hover{
+    background-color: #447474;
+    color: #fff;
+}
+
+form{
+    border-top: 1px solid rgba(160, 170, 159, 0.68);
+    margin-top: 3%;
+}
+
+/* Add padding to container elements */
+.container {
+    width: 60%;
+    padding-top: 1%;
+    
+}
+
+.container label{
+    font-weight: 500;
+    float: left;
+    color: #4ba7a7;
+    margin-bottom: 5px;
+    
+} 
+
+.container span{
+    color: #ed4343;
+}
+
+.PopupLogin{
+    width: auto; 
+}
+
+.succesIcone{
+    font-size: 210%;
+    color: green;
+    float: left;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}

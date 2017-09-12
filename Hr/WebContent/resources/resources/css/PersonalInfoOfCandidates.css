@@ -1,0 +1,100 @@
+.titleAbout h1{
+    font-style: italic;
+    width:auto;
+    font-size: 30px;
+}
+
+.personDescription{
+    width: 100%;
+    float: right;
+}
+
+
+
+
+.candidatesImg{
+    width: 200px;
+    height:200px;
+    float: left;
+    margin-left:15%;
+    margin-top: 5px;
+    border: 1px solid rgba(124, 113, 113, 0.63);
+    border-radius: 5px;
+
+}
+
+.fullName{
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+
+.fullName b{
+    font-style: italic;
+    letter-spacing: 2px;
+    /*    font-weight: 500;*/
+
+
+}
+
+.fullName b, span{
+    margin-top: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+.chouseCandidats{
+    height: 40px;
+    width: auto;
+    padding-top: 6px;
+    margin-top: 20px;
+    /*    background-color: #9d2b2b*/
+}
+
+.personalCV{
+    float: left;
+    margin-left: 2.3%;
+}
+
+.personalCV a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #c42e2e;   
+}
+.personalCV a:hover{
+    color: #980e0e;
+}
+.informationOfCandidates{
+    margin-top: 6.2%;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+h3{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+h3, .basket, .candidatesNumber{
+    float: left;
+    color: #a52020;
+}
+
+
+.basket{
+    float: left;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+.basket:hover{
+    color: #2088a7;
+}

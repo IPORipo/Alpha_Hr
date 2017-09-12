@@ -1,0 +1,45 @@
+.titleAbout {
+	margin-top: 2%;
+}
+
+.titleAbout h1 {
+	color: #ba3030;
+	margin: 0 auto;
+	width: 300px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	/*    text-shadow: 2px 1px  2px #6c2c2c;*/
+}
+
+.leftLine,.rightLine {
+	width: 20%;
+	margin-top: 4%;
+	height: 4px;
+	background-color: #ba3030;
+	box-shadow: 2px 1px 2px #6c2c2c;
+}
+
+.leftLine {
+	margin-left: 110%;
+}
+
+.rightLine {
+	margin-left: -30%;
+}
+
+form {
+	border: none;
+	margin-top: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.44), #1d1616),
+		url(/resources/resources/img/3.jpg);
+	background-size: 100%;
+}
+
+.container label {
+	font-weight: 500;
+	float: left;
+	color: #fff;
+	margin-bottom: 5px;
+}
